@@ -1,0 +1,86 @@
+DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logotipo da Loja">
+        </div>
+        <h1>Loja do campo à cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="produtos">Produtos</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Produtos em Destaque</h2>
+            <div class="produto">
+                <img src="produto1.jpg" alt="Produto 1">
+                <h3>Plantas medicinais</h3>
+                <p>Plantas comumente usadas para fazer remédios que podem ser cultivadas.</p>
+                <p class="preco">R$ 67 kg</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="produto2.jpg" alt="Produto 2">
+                <h3>Muda de Cana de açucar</h3>
+                <p>40 mudas de cana de açucar.</p>
+                <p class="preco">R$ 67 </p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <h2>Produtos em Destaque</h2>
+            <div class="produto">
+                <img src="produto3.jpg" alt="Produto 1">
+                <h3>Algodão</h3>
+                <p>Algodão em rolo 1kg.</p>
+                <p class="preco">R$ 25,54</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="produto4.jpg" alt="Produto 2">
+                <h3>Milho roxo</h3>
+                <p>500g de milho roxo</p>
+                <p class="preco">R$ 40 </p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja que vende produtos incríveis do campo. Nosso objetivo é oferecer a melhor qualidade com o melhor preço.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja do campo à cidade. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
